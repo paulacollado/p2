@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquillaje para Principiantes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .medium-img {
+            max-width: 70%;  /* Tamaño original de la primera imagen */
+            height: auto;
+        }
+        .small-img {
+            max-width: 40%;  /* Imágenes más grandes, ahora al 40% */
+            height: auto;
+            display: block;
+            margin: 0 auto;  /* Centra las imágenes dentro de su contenedor */
+        }
+        .small-title {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .sub-title {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-top: 1rem;
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        .img-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;  /* Espacio entre las imágenes */
+            align-items: center;  /* Alineación vertical */
+            margin-top: 15px;
+        }
+        .recuerda-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .recuerda-container img {
+            max-width: 45%;  /* Ajusta el tamaño de la imagen "recuerda.jpg" */
+            height: auto;
+        }
+        .recuerda-container .text {
+            max-width: 50%;
+            font-size: 2.5rem;  /* Aumentar el tamaño del texto */
+            padding-left: 10px;  /* Mover el texto un poco más a la izquierda */
+            text-align: left;  /* Alinear el texto a la izquierda */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">BELLEZA & SKINCARE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="rutinas.html">Tratamiento del rostro</a></li>
+                    <li class="nav-item"><a class="nav-link" href="maquillaje.html">Maquillaje</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container text-center mt-4">
+        <!-- Foto inicial -->
+        <img src="identificacion.jpg" alt="Maquillaje para principiantes" class="medium-img mb-3">
+        <h1 class="small-title mb-4">PASOS PARA TRANSFORMAR TU PIEL CON UN MAQUILLAJE SKIN-LIKE</h1>
+    </section>
+
+    <section class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="sub-title">1. Skin Prep</h3>
+                <ul>
+                    <li>Aplica una crema hidratante ligera para evitar que se te cuartee el maquillaje.</li>
+                    <li>Usa un tónico si necesitas cerrar tus poros.</li>
+                </ul>
+                <!-- Imagen centrada dentro del contenedor -->
+                <div class="img-container">
+                    <img src="cremahidra.jpg" alt="Crema hidratante" class="small-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3 class="sub-title">2. Elegir la base adecuada</h3>
+                <ul>
+                    <li>Escoge una base que se adapte a tu tono y tipo de piel.</li>
+                    <li>Evita bases muy pesadas para un look natural.</li>
+                </ul>
+                <!-- Imagen centrada dentro del contenedor -->
+                <div class="img-container">
+                    <img src="tinte.jpg" alt="Base de maquillaje" class="small-img">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3 class="sub-title">3. Difuminar bien los productos</h3>
+                <ul>
+                    <li>Usa una brocha o esponja para difuminar las sombras.</li>
+                    <li>El colorete y el contorno deben ser difuminados para evitar líneas visibles.</li>
+                </ul>
+                <!-- Imagen centrada dentro del contenedor -->
+                <div class="img-container">
+                    <img src="cara.jpg" alt="Difuminado de maquillaje" class="small-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aquí agregamos la imagen y el texto juntos -->
+    <section class="container">
+        <div class="recuerda-container">
+            <img src="recuerda.jpg" alt="Recuerda" class="small-img">
+            <div class="text">
+                <p>Recuerda que en el maquillaje, a veces menos es más. Así que no te excedas con los productos.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
