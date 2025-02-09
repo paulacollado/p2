@@ -1,12 +1,11 @@
-/* Estilo para el modal (popup) */
 .modal {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
-    display: none; /* Ocultarlo por defecto */
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -23,7 +22,7 @@
 .modal button {
     margin-top: 15px;
     padding: 10px 20px;
-    background-color: #003366; /* Azul marino */
+    background-color: #003366; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -31,5 +30,5 @@
 }
 
 .modal button:hover {
-    background-color: #003366; /* Un tono de azul más oscuro para el hover */
+    background-color: #003366; 
 }
